@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host --https",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -13,5 +13,8 @@
     "browser-image-compression": "^2.0.2",
     "nuxt": "^3.17.3",
     "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.0.0"
   }
 }

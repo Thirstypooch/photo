@@ -6,5 +6,9 @@ export default defineNuxtConfig({
   pages: false,
   nitro: {
     compatibilityDate: '2025-05-16'
-  }
+  },
+  devServer: {
+    https: true
+  },
+
 })
